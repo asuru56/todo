@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <button id="add"> Add </button>
+        <div id="project-list">
+            <!-- Project list will be dynamically populated here -->
+        </div>
+        <div id="todo-list">
+            <!-- Todo list will be dynamically populated here -->
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <input type="text" id="todoInput" placeholder="Enter your todo...">
+            <input type="text" id="todoInput" placeholder="description">
+            <label for="selectedDate">Select a date:</label>
+            <input type="date" id="selectedDate" name="selectedDate"> <select id="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button id="addTodoBtn">Add Todo</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

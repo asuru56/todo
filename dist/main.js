@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelector("#modal");document.getElementById("add").addEventListener("click",(function(){e.style.display="block"})),document.querySelectorAll(".close").forEach((function(n){n.addEventListener("click",(function(){e.style.display="none"}))}))})();
