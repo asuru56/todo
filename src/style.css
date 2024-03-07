@@ -1,4 +1,3 @@
-/* Styles for modal */
 .modal {
     display: none;
     position: fixed;
@@ -8,10 +7,12 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-  }
-  
- 
-  .modal-content {
+}
+.add-list{
+    display:flex;
+}
+
+.modal-content {
     display: flex;
     flex-direction: column;
     background-color: #fefefe;
@@ -19,13 +20,25 @@
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
-  }
-  #descriptionInput {
-    padding: 10px; /* Add padding for better appearance */
+}
+
+#descriptionInput {
+    padding: 10px;
+    /* Add padding for better appearance */
     width: auto;
 }
 
-.container{
+.close {
+    align-self: flex-end;
+    /* Align to the right */
+    cursor: pointer;
+    margin-left: auto;
+    /* Push it to the rightmost position */
+    margin-right: 10px;
+    /* Add some space to the left */
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
