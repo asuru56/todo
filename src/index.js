@@ -1,3 +1,4 @@
+import './style.css';
 // Selecting the modal
 var modal = document.querySelector('#modal');
 
