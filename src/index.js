@@ -11,12 +11,16 @@ addButton.addEventListener('click', function() {
 });
 
 // Selecting all elements with class 'close' (assuming there are multiple close buttons)
-var closeButtons = document.querySelectorAll('.close');
+var closeButton = document.querySelector('.close');
 
 // Adding event listeners to all 'close' buttons
-closeButtons.forEach(function(closeButton) {
-    closeButton.addEventListener('click', function() {
+closeButton.addEventListener('click', function() {
         modal.style.display = 'none';
     });
-});
 
+
+var addtodobuttonInside = document.querySelectorAll('.addTodoBtn');
+
+addtodobuttonInside.addEventListener('click',function(){
+    
+})
